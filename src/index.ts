@@ -47,10 +47,10 @@ export function create({
             .then(action(
                 `[mobx-persist ${key}] LOAD_DATA`,
                 (persisted: any) => {
+                    mergeObservables(store, initialState)
                     if (persisted && typeof persisted === 'object') {
                         update(schema, store, persisted, null, customArgs)
                     }
-                    mergeObservables(store, initialState)
                     return store
                 }
             ))

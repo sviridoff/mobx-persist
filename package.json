@@ -1,5 +1,5 @@
 {
-  "name": "mobx-persist",
+  "name": "@sviridoff/mobx-persist",
   "version": "0.4.1",
   "description": "create and persist mobx stores",
   "main": "lib/index.js",
@@ -46,5 +46,9 @@
     "typescript": "^2.4.1",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2"
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
   }
 }

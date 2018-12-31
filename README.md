@@ -1,5 +1,7 @@
 # Mobx Persist
 
+A fork from https://github.com/pinqy520/mobx-persist
+
 [![npm version](https://badge.fury.io/js/mobx-persist.svg)](https://badge.fury.io/js/mobx-persist)
 
 ```
